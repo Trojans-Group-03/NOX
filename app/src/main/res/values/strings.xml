@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NOX</string>
+    <string name="text1">genre</string>
+    <string name="text2">du</string>
+    <string name="btn1">view</string>
+    <string name="btn2">view2</string>
+    <string name="text3">gen</string>
+    <string name="text4">du</string>
+    <string name="text5">name1</string>
+    <string name="text6">name2</string>
+    <string name="text7">name3</string>
+    <string name="textView9">First Name</string>
+    <string name="textView10">LastName</string>
+    <string name="textView11">Email</string>
+    <string name="textview12">Phone</string>
+    <string name="textView13">Password</string>
+    <string name="textView14">confirm</string>
+    <string name="name1">Firstt Name</string>
+    <string name="name2">Last Name</string>
+    <string name="name3">Email</string>
+    <string name="name4">Phone</string>
+    <string name="name5">password1</string>
+    <string name="name6">Confirm Password</string>
+    <string name="btn4">submit</string>
+    <string name="text16">name</string>
+    <string name="password">Password</string>
+    <string name="todo8">arrow</string>
+    <string name="text21">myProfile</string>
+    <string name="text25">name21</string>
+</resources>
