@@ -118,7 +118,7 @@
         android:layout_height="53dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="237dp"
+        android:layout_marginTop="236dp"
         android:layout_marginEnd="231dp"
         android:layout_marginRight="231dp"
         android:fontFamily="sans-serif-black"
@@ -129,6 +129,7 @@
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints,UnknownId,UnknownIdInLayout" />
@@ -304,7 +305,7 @@
         android:layout_height="60dp"
         android:layout_marginStart="215dp"
         android:layout_marginLeft="215dp"
-        android:layout_marginTop="607dp"
+        android:layout_marginTop="604dp"
         android:layout_marginEnd="28dp"
         android:layout_marginRight="28dp"
         android:hint="@string/btn4"
@@ -313,6 +314,7 @@
         android:textStyle="bold"
         app:backgroundTint="#F83939"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TouchTargetSizeCheck,UnknownIdInLayout" />
