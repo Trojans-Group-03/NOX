@@ -3,11 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/arrow.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_baseline_filter_alt_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_baseline_local_movies_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_baseline_qr_code_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_search.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/activity_main3.xml" value="0.209375" />
-        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/activity_main4.xml" value="0.209375" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/activity_main4.xml" value="0.22" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/activity_main5.xml" value="0.22" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/app_bar_main.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/content_main.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/fragment_gallery.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/fragment_home.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/fragment_slideshow.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/home.xml" value="0.22" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/nav_header_main.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/raw_item.xml" value="0.2" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/toolbar.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/menu/example_menu.xml" value="0.22" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/menu/main_menu.xml" value="0.25" />
       </map>
     </option>
   </component>
@@ -16,5 +42,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
   </component>
 </project>
