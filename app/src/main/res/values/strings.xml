@@ -27,4 +27,27 @@
     <string name="todo8">arrow</string>
     <string name="text21">myProfile</string>
     <string name="text25">name21</string>
+    <string name="title_activity_main5">MainActivity5</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="tv_1" />
+    <string name="tv_01">My Profile Update</string>
+    <string name="et_01" />
+    <string name="et_02" />
+    <string name="et_03" />
+    <string name="et_04" />
+    <string name="tv_2">Name</string>
+    <string name="tv_3">NIC</string>
+    <string name="tv_4">Phone No</string>
+    <string name="tv_5">E-mail</string>
+    <string name="btn_01">Save</string>
+    <string name="btn_02">Delete Account</string>
 </resources>
