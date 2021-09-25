@@ -10,8 +10,8 @@
     tools:context=".MainActivity2">
 
     <LinearLayout
-        android:layout_width="369dp"
-        android:layout_height="303dp"
+        android:layout_width="wrap_content"
+        android:layout_height="337dp"
         android:layout_marginTop="300dp"
         android:layout_marginBottom="20dp"
         android:background="@color/white"
@@ -33,7 +33,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="text"/>
+                android:inputType="text" />
 
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -52,7 +52,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textEmailAddress"/>
+                android:inputType="textEmailAddress" />
 
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -63,27 +63,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
-            app:passwordToggleEnabled="true"
             android:textColorHint="@color/black"
             app:boxStrokeColor="@color/black"
             app:boxStrokeWidthFocused="2dp"
-            app:hintTextColor="@color/black">
+            app:hintTextColor="@color/black"
+            app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textPassword"/>
+                android:inputType="textPassword" />
 
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/signUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:text="Sing IN"
             android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/reglogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Already have an Account?LogIn"
+            android:textSize="14sp" />
 
 
     </LinearLayout>
