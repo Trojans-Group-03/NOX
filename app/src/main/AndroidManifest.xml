@@ -16,10 +16,13 @@
             android:name=".MainActivity3"
             android:exported="true" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".login"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
