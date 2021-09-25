@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "888257468195",
+    "project_id": "nox-b2bed",
+    "storage_bucket": "nox-b2bed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888257468195:android:ea65b1d703d19bda5f5e96",
+        "android_client_info": {
+          "package_name": "com.example.nox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888257468195-3nsmbcggkjuate2pls58t3pfrti7oqov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCMvT-jiX0QoO9SG3blt3RdBBXtIuTwno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888257468195-3nsmbcggkjuate2pls58t3pfrti7oqov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
