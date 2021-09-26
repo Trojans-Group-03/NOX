@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12131F"
+    tools:context=".Manage">
+
+    <TextView
+        android:id="@+id/TextView21"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="sans-serif-black"
+        android:text="MANAGE MOVIES"
+        android:textColor="#FFF9C4"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="369dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFF9C4"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView21">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="112dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="Venom 1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:backgroundTint="#F05152"
+            android:text="update" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="205dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:backgroundTint="#F05152"
+            android:text="Delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:background="#FFF9C4"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:text="Scooby Doo"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:backgroundTint="#F05152"
+            android:text="update" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:backgroundTint="#F05152"
+            android:text="Delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="163dp"
+        android:layout_marginBottom="32dp"
+        android:background="#FFF9C4"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="140dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:text="Tholi Prema"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:backgroundTint="#F05152"
+            android:text="update"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:backgroundTint="#F05152"
+            android:text="Delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
