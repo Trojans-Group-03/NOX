@@ -3,18 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/activity_admin_menu.xml" value="0.209375" />
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/activity_cardpay.xml" value="0.2" />
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/activity_main2.xml" value="0.209375" />
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/activity_main3.xml" value="0.209375" />
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/activity_main4.xml" value="0.209375" />
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/activity_payment.xml" value="0.18" />
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/activity_payment_method.xml" value="0.209375" />
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/activity_save_card.xml" value="0.22" />
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/activity_view_cards.xml" value="0.209375" />
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/item.xml" value="0.22" />
-        <entry key="..\:/Users/NISHAD THEEKSHANA/AndroidStudioProjects/NOX2/app/src/main/res/layout/raw_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Akin Karavita/Desktop/NOX/app/src/main/res/layout/activity_admin_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Akin Karavita/Desktop/NOX/app/src/main/res/layout/activity_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Akin Karavita/Desktop/NOX/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Akin Karavita/Desktop/NOX/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Akin Karavita/Desktop/NOX/app/src/main/res/layout/activity_main3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Akin Karavita/Desktop/NOX/app/src/main/res/layout/activity_main4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Akin Karavita/Desktop/NOX/app/src/main/res/layout/activity_manage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Akin Karavita/Desktop/NOX/app/src/main/res/layout/activity_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Akin Karavita/Desktop/NOX/app/src/main/res/layout/activity_view_booking.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Akin Karavita/Desktop/NOX/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/arrow.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.22552083333333334" />
@@ -58,7 +56,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.22" />
+        <option name="scale" value="0.2" />
       </ProjectState>
     </option>
   </component>
