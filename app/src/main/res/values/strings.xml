@@ -50,4 +50,54 @@
     <string name="tv_5">E-mail</string>
     <string name="btn_01">Save</string>
     <string name="btn_02">Delete Account</string>
+
+
+
+    // Admin
+
+    <string name="app_name">NOX</string>
+    <string name="textView">ADMIN MENU</string>
+    <string name="button">ADD A MOVIE</string>
+    <string name="button6">MANAGE MOVIES</string>
+    <string name="button7">VIEW BOOKINGS</string>
+    <string name="button9">CHANGE PASSWORD</string>
+    <string name="_14_30">14 : 30</string>
+    <string name="textView2">ADD A MOVIE</string>
+    <string name="textView4">Sample Image</string>
+    <string name="button5">Add Image</string>
+    <string name="editTextTextPersonName">Upload image</string>
+    <string name="button3">NEXT</string>
+    <string name="editTextDate2">Movie Name</string>
+    <string name="editTextDate3">Duration</string>
+    <string name="editTextDate4">Released Date</string>
+    <string name="editTextDate5">Description</string>
+    <string name="button2">Upload</string>
+    <string name="button12">Update</string>
+    <string name="button13">Delete</string>
+    <string name="textView21">Bookings</string>
+    <string name="button10">Send Email</string>
+    <string name="button11">Send Email</string>
+    <string name="TextView21">Change Password</string>
+    <string name="EditTextDate2">CURRENT PASSWORD</string>
+    <string name="EditTextDate3">NEW PASSWORD</string>
+    <string name="EditTextDate4">CONFIRM PASSWORD</string>
+    <string name="button8">UPLOAD</string>
+    <string name="btn_0">aaaa</string>
+    <string name="bitton_3">upload a image</string>
+    <string name="button_3">Select a Image</string>
+    <string name="tv_1">Bookings</string>
+    <string name="button_0">Send Email</string>
+    <string name="button_1">Send email</string>
+    <string name="button_2">send email</string>
+    <string name="tv1">Name :</string>
+    <string name="tv2">Date :</string>
+    <string name="tv3">Time :</string>
+    <string name="tv4">Seats</string>
+    <string name="tv5">Contact Num :</string>
+    <string name="tv6">E mail :</string>
+    <string name="buttonback">back</string>
+    <string name="et_1" />
+    <string name="et_2" />
+    <string name="et_3" />
+    <string name="et_4" />
 </resources>

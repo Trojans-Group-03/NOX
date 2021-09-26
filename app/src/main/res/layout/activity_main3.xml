@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FA5959"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+    </com.google.android.material.appbar.AppBarLayout>
+
     <ImageView
         android:id="@+id/imageView24"
         android:layout_width="wrap_content"
@@ -17,9 +30,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/profile" />
 
-
-
-
     <TextView
         android:id="@+id/textView28"
         android:layout_width="158dp"
@@ -30,7 +40,7 @@
         android:layout_marginEnd="127dp"
         android:layout_marginRight="127dp"
         android:hint="@string/text16"
-        android:text="B.W.D.Kumaras"
+        android:text="B.W.D.Kumara"
         android:textColor="#FFF9C4"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,8 +84,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="UnknownId,UnknownIdInLayout" />
 
     <Button
