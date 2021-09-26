@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12131F"
+    tools:context=".SaveCard">
+
+
+    <EditText
+        android:id="@+id/Name_On_Card"
+        android:layout_width="311dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="164dp"
+        android:backgroundTint="#EFE1C6"
+        android:ems="10"
+        android:hint="Name On Card"
+        android:inputType="textPersonName"
+        android:textColorHint="#EFE1C6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Ccard_Number"
+        android:layout_width="311dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#EFE1C6"
+        android:ems="10"
+        android:hint="Card Number"
+        android:inputType="textPersonName"
+        android:textColorHint="#EFE1C6"
+        app:layout_constraintEnd_toEndOf="@+id/Name_On_Card"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Name_On_Card"
+        app:layout_constraintTop_toBottomOf="@+id/Name_On_Card" />
+
+    <EditText
+        android:id="@+id/Exp_Date"
+        android:layout_width="311dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#EFE1C6"
+        android:ems="10"
+        android:hint="Exp Date"
+        android:inputType="textPersonName"
+        android:textColorHint="#EFE1C6"
+        app:layout_constraintEnd_toEndOf="@+id/Ccard_Number"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Ccard_Number"
+        app:layout_constraintTop_toBottomOf="@+id/Ccard_Number" />
+
+    <EditText
+        android:id="@+id/Cvv_number"
+        android:layout_width="311dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#EFE1C6"
+        android:ems="10"
+        android:hint="CVV"
+        android:inputType="textPersonName"
+        android:textColorHint="#EFE1C6"
+        app:layout_constraintEnd_toEndOf="@+id/Exp_Date"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Exp_Date"
+        app:layout_constraintTop_toBottomOf="@+id/Exp_Date" />
+
+
+    <Button
+        android:id="@+id/SaveBtn"
+        android:layout_width="144dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#F05152"
+        android:text="save"
+        android:textColor="#EFE1C6"
+        app:layout_constraintEnd_toEndOf="@+id/Cvv_number"
+        app:layout_constraintStart_toStartOf="@+id/Cvv_number"
+        app:layout_constraintTop_toBottomOf="@+id/Cvv_number" />
+
+    <Button
+        android:id="@+id/ViewBtn"
+        android:layout_width="144dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#F05152"
+        android:text="View"
+        android:textColor="#EFE1C6"
+        app:layout_constraintEnd_toEndOf="@+id/SaveBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/SaveBtn"
+        app:layout_constraintTop_toBottomOf="@+id/SaveBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
