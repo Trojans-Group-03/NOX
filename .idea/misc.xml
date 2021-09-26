@@ -23,6 +23,7 @@
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_search.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/User/Downloads/NOX2/app/src/main/res/layout/activity_main3.xml" value="0.209375" />
@@ -47,12 +48,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.2" />
-      </ProjectState>
-    </option>
   </component>
 </project>
