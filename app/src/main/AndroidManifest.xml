@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NOX">
         <activity
+            android:name=".Password"
+            android:exported="true" />
+        <activity
+            android:name=".View_Booking"
+            android:exported="true" />
+        <activity
+            android:name=".Manage"
+            android:exported="true" />
+        <activity
             android:name=".Details"
             android:exported="true" />
         <activity
@@ -49,7 +58,7 @@
             android:name=".SaveCard"
             android:exported="true" />
         <activity
-            android:name="login"
+            android:name=".login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
