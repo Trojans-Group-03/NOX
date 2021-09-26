@@ -16,6 +16,27 @@
             android:name=".Admin_Menu"
             android:exported="true" />
         <activity
+            android:name=".ViewCards"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SaveCard"
+            android:exported="true" />
+        <activity
+            android:name=".cardpay"
+            android:exported="true" />
+        <activity
+            android:name=".payment"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity4"
             android:exported="true" />
         <activity
@@ -25,7 +46,7 @@
             android:name=".MainActivity2"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SaveCard"
             android:exported="true" />
         <activity
             android:name="login"

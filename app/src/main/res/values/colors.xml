@@ -8,12 +8,4 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="drak">#12131F</color>
-
-
-    // Admin pages
-
-
-    <color name="orange">#F05152</color>
-    <color name="simplebackgroundcolor">#0E0D0D</color>
-    <color name="white2">#EFE1C6</color>
 </resources>
