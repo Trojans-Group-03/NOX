@@ -1,247 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/drak"
-    tools:context="MainActivity4">
+    tools:context="MainActivity4"
+    android:orientation="vertical">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FA5959"
         android:theme="@style/ThemeOverlay.AppCompat.Light">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/main_toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize" />
+            android:layout_height="wrap_content" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
-        android:id="@+id/tv_1"
-        android:layout_width="wrap_content"
-        android:layout_height="63dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="59dp"
-        android:layout_marginLeft="59dp"
-        android:layout_marginTop="66dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginRight="64dp"
-        android:fontFamily="sans-serif-light"
-        android:text="@string/tv_01"
-        android:textColor="#FFF9C4"
-        android:textColorHighlight="#FFEB3B"
-        android:textSize="34sp"
-        android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="144dp"
-        android:layout_height="158dp"
-        android:layout_below="@+id/tv_1"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="134dp"
-        android:layout_marginLeft="134dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="133dp"
-        android:layout_marginRight="133dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_person_24"
-        tools:ignore="MissingConstraints,VectorDrawableCompat" />
-
-    <TextView
-        android:id="@+id/tv_3"
-        android:layout_width="141dp"
-        android:layout_height="46dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="400dp"
-        android:text="@string/tv_3"
-        android:textColor="#FFF9C4"
-        android:textColorHighlight="#FA5959"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/tv_4"
-        android:layout_width="141dp"
-        android:layout_height="46dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="450dp"
-        android:text="@string/tv_4"
-        android:textColor="#FFF9C4"
-        android:textColorHighlight="#FA5959"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/tv_5"
-        android:layout_width="141dp"
-        android:layout_height="46dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="500dp"
-        android:text="@string/tv_5"
-        android:textColor="#FFF9C4"
-        android:textColorHighlight="#FA5959"
-        android:textSize="30sp" />
-
-    <EditText
-        android:id="@+id/et_02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_2"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="-47dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
-        android:layout_toEndOf="@+id/tv_2"
-        android:layout_toRightOf="@+id/tv_2"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:selectAllOnFocus="true"
-        android:text="@string/et_02"
-        android:textColor="#FFF9C4"
-        android:textColorHint="#FFF9C4"
-        android:textColorLink="#FFF9C4"
-        android:textSize="24sp"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/et_01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_3"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="-46dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
-        android:layout_toEndOf="@+id/tv_3"
-        android:layout_toRightOf="@+id/tv_3"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:singleLine="false"
-        android:text="@string/et_01"
+        android:text="My Profile"
         android:textColor="@color/white"
-        android:textSize="24sp"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        android:textSize="48sp"
+        android:layout_gravity="center"
+        android:textStyle="bold|italic" />
 
-    <EditText
-        android:id="@+id/et_03"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_4"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="10dp"
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="479dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="-46dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
-        android:layout_toEndOf="@+id/tv_4"
-        android:layout_toRightOf="@+id/tv_4"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/et_03"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/drak"
+        android:orientation="vertical"
+        android:padding="20dp">
 
-    <EditText
-        android:id="@+id/et_04"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_5"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="-46dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
-        android:layout_toEndOf="@+id/tv_5"
-        android:layout_toRightOf="@+id/tv_5"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/et_04"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/firstname"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background=""
+            android:hint="First Name">
 
-    <TextView
-        android:id="@+id/tv_2"
-        android:layout_width="141dp"
-        android:layout_height="46dp"
-        android:layout_below="@+id/imageView20"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="36dp"
-        android:text="@string/tv_2"
-        android:textColor="#FFF9C4"
-        android:textColorHighlight="#FA5959"
-        android:textSize="30sp" />
-
-    <Button
-        android:id="@+id/btn_01"
-        android:layout_width="350dp"
-        android:layout_height="56dp"
-        android:layout_below="@+id/tv_5"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="41dp"
-        android:layout_marginLeft="41dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginBottom="120dp"
-        android:background="#FA5959"
-        android:text="@string/btn_01"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:backgroundTint="#FA5959"
-        app:elevation="4dp" />
-
-    <Button
-        android:id="@+id/btn_02"
-        android:layout_width="347dp"
-        android:layout_height="56dp"
-        android:layout_below="@+id/tv_5"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="49dp"
-        android:background="#FA5959"
-        android:text="@string/btn_02"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:backgroundTint="#FA5959"
-        app:elevation="4dp" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
 
 
-</RelativeLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/lastname"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nic"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIC">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phone"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone No">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Update"
+            app:backgroundTint="#FA5959"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Delete Account"
+            app:backgroundTint="#FA5959"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
