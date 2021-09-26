@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NOX">
         <activity
+            android:name=".Details"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Menu"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity4"
             android:exported="true" />
         <activity
