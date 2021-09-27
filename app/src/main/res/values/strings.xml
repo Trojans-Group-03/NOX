@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NOX</string>
+    <string name="todo1">TODO</string>
+    <string name="LOGINBOTTON">Button</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="singup">Button</string>
+    <string name="todo5">TODO</string>
+    <string name="homeimage">TODO</string>
+    <string name="background1">TODO</string>
+    <string name="sing_upbut">Sing up</string>
+    <string name="loginbut">Login</string>
+    <string name="passwordtex">Password</string>
+    <string name="e_mailtex">E-mail</string>
+    <string name="todo6">TODO</string>
+    <string name="fing_your_show1">Fing Your Show</string>
+    <string name="todo7">TODO</string>
+    <string name="book_your_seats2">Book Your Seats</string>
+    <string name="conform_seats">Conform Seats</string>
+    <string name="book_your_seats">Book Your Seats</string>
+    <string name="conform_seats2">Conform seats</string>
+    <string name="todo8">TODO</string>
+    <string name="confirm_seatsButton">Confirm Seats</string>
+    <string name="paymentbackground">paymentbackground</string>
+</resources>

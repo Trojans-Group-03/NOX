@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/background_234" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView6"
+            app:layout_constraintHorizontal_bias="0.958"
+            app:layout_constraintStart_toStartOf="@+id/imageView6"
+            app:srcCompat="@drawable/menu"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/todo8"
+            app:layout_constraintStart_toStartOf="@+id/imageView6"
+            app:srcCompat="@drawable/arrow"
+            tools:ignore="ImageContrastCheck"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/Next"
+            android:layout_width="95dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="320dp"
+            android:backgroundTint="#F05152"
+            android:text="Pay"
+            android:textColor="#EFE1C6"
+            app:layout_constraintEnd_toEndOf="@+id/CVV3"
+            app:layout_constraintTop_toBottomOf="@+id/successful" />
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="320dp"
+            android:backgroundTint="#F05152"
+            android:text="Update"
+            android:textColor="#EFE1C6"
+            app:layout_constraintEnd_toStartOf="@+id/Next"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/CVV3"
+            app:layout_constraintTop_toBottomOf="@+id/successful" />
+
+        <TextView
+            android:id="@+id/successful"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="412dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Check Details"
+            android:textColor="#FFF9C4"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView10"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toEndOf="@+id/imageView12" />
+
+        <EditText
+            android:id="@+id/editTextNumber5"
+            android:layout_width="276dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="316dp"
+            android:backgroundTint="@color/white2"
+            android:ems="10"
+            android:foregroundTint="@color/white2"
+            android:inputType="number"
+            android:text="1245 2154 1236 1247"
+            android:textColor="@color/white2"
+            android:textColorHint="@color/white2"
+            android:textColorLink="@color/white2"
+            app:layout_constraintEnd_toEndOf="@+id/successful"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="@+id/successful"
+            app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+        <EditText
+            android:id="@+id/exdate_text2"
+            android:layout_width="276dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="444dp"
+            android:backgroundTint="@color/white2"
+            android:ems="10"
+            android:foregroundTint="@color/white2"
+            android:inputType="number"
+            android:text="23/05"
+            android:textColor="@color/white2"
+            android:textColorHint="@color/white2"
+            android:textColorLink="@color/white2"
+            app:layout_constraintEnd_toEndOf="@+id/successful"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="@+id/successful"
+            app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+        <EditText
+            android:id="@+id/CVV3"
+            android:layout_width="276dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/white2"
+            android:ems="10"
+            android:foregroundTint="@color/white2"
+            android:inputType="number"
+            android:text="***"
+            android:textColor="@color/white2"
+            android:textColorHint="@color/white2"
+            android:textColorLink="@color/white2"
+            app:layout_constraintEnd_toEndOf="@+id/successful"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="@+id/successful"
+            app:layout_constraintTop_toBottomOf="@+id/exdate_text2" />
+
+        <EditText
+            android:id="@+id/nameonCard2"
+            android:layout_width="276dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/white2"
+            android:ems="10"
+            android:foregroundTint="@color/white2"
+            android:inputType="text"
+            android:text="lahiru perera"
+            android:textColor="@color/white2"
+            android:textColorHint="@color/white2"
+            android:textColorLink="@color/white2"
+            app:layout_constraintEnd_toEndOf="@+id/successful"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="@+id/successful"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumber5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
